@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(179, 139, 217);
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+table {
+    width: 100%;
+    border-collapse:collapse;
+    margin-top: 20px;
+
+}
+
+table, th, td {
+    border: 1px solid rgb(194, 163, 223);
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: aliceblue;
+    color: rgb(50, 4, 4);
+}
+
+tr:nth-child(even){
+    background-color:aliceblue ;
+}
+
+tr:hover{
+    background-color: aliceblue;
+}
